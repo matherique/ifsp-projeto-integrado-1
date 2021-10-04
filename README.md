@@ -1,6 +1,6 @@
 # 📝 Projeto Integrado 1
 
-Possiveis tabelas 
+Possíveis tabelas 
 * Produtos
 * Receitas
 * Usuários
