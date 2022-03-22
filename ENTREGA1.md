@@ -18,15 +18,8 @@
 
 - Usuarios (min 3) (1 tabela cliente com papeis diferentes)
   - Cliente (role=cliente)
-    - Cria, cancela e visualiza um pedido
-    - Pagamento (FUTURO)
   - Funcionario (role=funcionario)
-    - Gerencia Receitas
-    - Gerencia estoque
-    - Gerencia Pedido
   - Admin (role=administrador)
-    - Gerencia Clientes
-    - Gerencia funcionários
 
 - Requistos funcionais (min 30) e nao funcionais(min 10)
 - Casos de uso (apenas titulo - minimo 20)
@@ -34,15 +27,44 @@
 
 ## "Modulos"
 
- - Bolos
- - Produtos
- - Usuarios (divisoria por "roles")
- - Estoque
- - Contas (projeto 2)
- - Pedidos 
- - Relatório (projeto 2)
- - Cupons 
- - Pagamento ? (projeto 2)
+C - Create
+R - Read
+U - Update
+D - Disable
+
+ - Bolos (C R U D)
+ - Produtos (C R U D)
+ - Usuarios (divisoria por "roles") (C R U D)
+ - Estoque (C R U D)
+ - Contas (projeto 2) (C R U D)
+ - Pedidos (C R U D)
+ - Relatório (projeto 2) (C R)
+ - Cupons (C R U D)
+ - Pagamento ? (projeto 2) (C) 
+
+## Casos de uso
+
+- 1 Cadastro de bolo
+- 2 Cadastro de produtos
+- 3 Cadastro de usuario
+- 4 Cadastro de cliente
+- 5 Cadastro de contas a pagar 
+- 6 Cadastro de contas a receber
+- 7 Fluxo de pedido (todos os status)
+- 8 Gerar relatorio 
+- 9 Cadastro de cupom
+- 10 Logar cliente
+- 11 Entrada de produtos
+- 12 Cancelar pedido
+- 13 Notificacao de usuarios (todas "roles")
+- 14 Fluxo de pagamento
+- 15 
+- 16 
+- 17 
+- 18 
+- 19 
+- 20 
+- 21 
 
 ## Requisitos Funcionais 
 
@@ -83,8 +105,9 @@
 - RF30: O sistema deve gerar relatorios de produtos
 - RF31: O sistema deve gerar relatorios de bolos 
 - RF32: O sistema deve aceitar pagamento do cliente no momento do pedido
-- RF32: O sistema deve gerar um link de pagamento para enviar para o cliente 
-- RF33: O sistema deve
+- RF33: O sistema deve gerar um link de pagamento para enviar para o cliente 
+- RF34: O sistema deve gerar um link de pagamento para enviar para o cliente 
+- RF34: O sistema deve notificar o cliente(role=cliente) a alteracao de status do pedido (Whatsapp?? twillow?)
 
 ## Requisitos Não funcionais
 
@@ -100,4 +123,3 @@
 - RNF10: 
 
 
-## Casos de uso
