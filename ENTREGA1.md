@@ -84,11 +84,11 @@ D - Disable
 - RF14: O sistema deve permitir o cadastro de produtos utilizados na criacao dos bolos (farinha, ovo, leite, etc) 
 - RF15: O sistema deve notificar os usuarios quando um item do estoque esteja em baixa 
 - RF16: O sistema deve permitir a definicao de um valor de unidade para caso seja menor, notificar os usuarios 
-  ```go
-    if quantidade_produto_x < quantidade_minima_produto_estoque {
-      notificar();
-    }
-  ```
+```go
+if quantidade_produto_x < quantidade_minima_produto_estoque {
+  notificar();
+}
+```
 - RF17: O sistema deve permitir a entrada de produtos no estoque pelo usuario com "role=functionario,administrador"
 - RF18: O sistema deve remover os produtos do estoque no momento da criacao do pedido
 - RF19: O sistema deve "re-entrar" os produtos que foram removidos caso o pedido seja cancelado antes do preparo
