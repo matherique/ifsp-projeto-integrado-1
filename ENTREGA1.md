@@ -17,14 +17,14 @@
   - App? Talvez 
 
 - Usuarios (min 3) (1 tabela cliente com papeis diferentes)
-  - Cliente
+  - Cliente (role=cliente)
     - Cria, cancela e visualiza um pedido
     - Pagamento (FUTURO)
-  - Funcionario
+  - Funcionario (role=funcionario)
     - Gerencia Receitas
     - Gerencia estoque
     - Gerencia Pedido
-  - Admin
+  - Admin (role=administrador)
     - Gerencia Clientes
     - Gerencia funcionários
 
@@ -74,10 +74,30 @@
 - RF21: ? O sistema deve permitir a criacao de um cupom para um determinado bolo ou categoria
 - RF22: O sistema deve permitir a criacao de contas a pagar pelo usuario com "role=adminitrador"
 - RF23: O sistema deve permitir a criacao de contas a receber pelo usuario com "role=adminitrador" (fiado?) 
-- RF24
-- RF25:
-- RF26:
-- RF27:
-- RF28: 
-- RF29:
-- RF30:
+- RF24: O sistema deve permitir a configuracao de limite de pedidos diarios 
+- RF25: O sistema deve bloquear horario de entrega para que nao possa ser utilizado esse horario
+- RF26: O sistema deve reservar os horarios de entrega dos pedidos 
+- RF27: O sistema deve gerar relatorios de pedidos 
+- RF28: O sistema deve gerar relatorios de estoque
+- RF29: O sistema deve gerar relatorios de contas
+- RF30: O sistema deve gerar relatorios de produtos
+- RF31: O sistema deve gerar relatorios de bolos 
+- RF32: O sistema deve aceitar pagamento do cliente no momento do pedido
+- RF32: O sistema deve gerar um link de pagamento para enviar para o cliente 
+- RF33: O sistema deve
+
+## Requisitos Não funcionais
+
+- RNF1: O backend do sistema deve ser desenvolvido em Go
+- RNF2: O frontend do sistema deve ser desenvolvido em ReactJs 
+- RNF3: O sistema deve utilizar o banco de dados Postgress
+- RNF4: O sistema deve ser resposivo para acesso mobile ou de tablet
+- RNF5: O sistema deve salvar a sessao do usuario para proximos acessos
+- RNF6: O sistema deve 
+- RNF7: 
+- RNF8: 
+- RNF9: 
+- RNF10: 
+
+
+## Casos de uso
