@@ -8,7 +8,7 @@
   - Justificativa
   - Problema
 
-- Tecnologia Utilziadas (Linguagens de programacao, banco de dados, etc)
+- Tecnologia Utilizadas (Linguagens de programacao, banco de dados, etc)
   - Backend
     - Go
     - Postgresql
@@ -44,27 +44,26 @@ D - Disable
 
 ## Casos de uso
 
-- 1 Cadastro de bolo
+- 1 Cadastro de bolos
 - 2 Cadastro de produtos
-- 3 Cadastro de usuario
-- 4 Cadastro de cliente
-- 5 Cadastro de contas a pagar 
-- 6 Cadastro de contas a receber
-- 7 Fluxo de pedido (todos os status)
-- 8 Gerar relatorio 
-- 9 Cadastro de cupom
-- 10 Logar cliente
-- 11 Entrada de produtos
-- 12 Cancelar pedido
-- 13 Notificacao de usuarios (todas "roles")
-- 14 Fluxo de pagamento
-- 15 
-- 16 
-- 17 
+- 3 Cadastro de usuarios
+- 4 Alteracao de roles de usuários
+- 5 Login cliente
+- 6 Login usuarios
+- 7 Entrada de item no estoque
+- 8 Saida de item no estoque
+- 9 Cadastro de cliente
+- 10 Cadastro de contas a pagar 
+- 11 Cadastro de contas a receber
+- 12 Criacao de um pedido (todos os status)
+- 13 Cancelamento de um pedido
+- 14 Geracao de relatorios
+- 15 Cadastro de cupom
+- 16 Notificacao de usuarios (todas "roles")
+- 17 Fluxo de pagamento (rejected, schedule, paid)
 - 18 
 - 19 
 - 20 
-- 21 
 
 ## Requisitos Funcionais 
 
@@ -116,10 +115,10 @@ if quantidade_produto_x < quantidade_minima_produto_estoque {
 - RNF3: O sistema deve utilizar o banco de dados Postgress
 - RNF4: O sistema deve ser resposivo para acesso mobile ou de tablet
 - RNF5: O sistema deve salvar a sessao do usuario para proximos acessos
-- RNF6: O sistema deve 
-- RNF7: 
-- RNF8: 
-- RNF9: 
-- RNF10: 
+- RNF6: O sistema deve estar online 24/7
+- RNF7: O frontend deve se comunicar com o backend via REST API
+- RNF8: O sistema devera ser de facil manutencao 
+- RNF9: O sistema devera poder receber atualizacao qualquer momento via CI/CD
+- RNF10: O sistema devera ter testes unitários e de integraçao
 
 
