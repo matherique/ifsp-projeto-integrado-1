@@ -106,7 +106,7 @@ if quantidade_produto_x < quantidade_minima_produto_estoque {
 - RF32: O sistema deve aceitar pagamento do cliente no momento do pedido
 - RF33: O sistema deve gerar um link de pagamento para enviar para o cliente 
 - RF34: O sistema deve gerar um link de pagamento para enviar para o cliente 
-- RF34: O sistema deve notificar o cliente(role=cliente) a alteracao de status do pedido (Whatsapp?? twillow?)
+- RF35: O sistema deve notificar o cliente(role=cliente) a alteracao de status do pedido (Whatsapp?? twillow?)
 
 ## Requisitos Não funcionais
 
