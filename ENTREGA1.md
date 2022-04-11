@@ -3,12 +3,12 @@
 > Tema: Sistema de gestão de Doceria
 
 ## Entrega 1 - 28/03/22
-- Introducao 
+- Introducao  -> melhorar 
   - Objetivos
   - Justificativa
-  - Problema
+  - Problema  -> + exemplos
 
-- Tecnologia Utilizadas (Linguagens de programacao, banco de dados, etc)
+- Tecnologia Utilizadas (Linguagens de programacao, banco de dados, etc) -> descrever mais
   - Backend
     - Go
     - Postgresql
